@@ -1,0 +1,280 @@
+*{
+ 
+  margin: 0px;
+  padding: 0px;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+padding: 30px;
+letter-spacing: 1.74px;
+text-align: center;
+background: #000;
+
+}
+.main-logo a{
+  color: white;
+  margin-left: 30px;
+  color: #FFF;
+text-decoration: none;
+font-family: Ruda;
+font-size: 25px;
+font-style: normal;
+font-weight: 70;
+}
+.menu a{
+  color: #FFF;
+  text-decoration: none;
+  font-family: Ruda;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 70;
+  margin-left: 10px;
+}
+.media-logo {
+  justify-content: center;
+  display: flex;
+}
+.insta{
+  margin-top: -10px;
+  margin-right: -20px;
+}
+.main{
+  position: relative;
+  height: auto;
+  
+
+}
+
+.main img{
+ width: 100%;
+  height: auto;
+
+}
+
+.img-heading{
+  position: absolute;
+color: white;
+top: 200px;
+left: 30px;
+color: #FFF;
+text-align: center;
+font-family: Quattrocento;
+font-size: 40px;
+font-weight: 300;
+line-height: 108.5px; /* 107.426% */
+letter-spacing: 9.09px;
+
+}
+.aboutimage{
+  position: absolute;
+  color: #FFF;
+font-family: Ruda;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 2.25px;
+bottom: -23px;
+width: 599px;
+height: 325px;
+left: 30px;
+}
+.box{
+  width: 586px;
+height: 13px;
+left: 30px;
+flex-shrink: 0;
+background-color: red;
+position: absolute;
+top:382px
+}
+.about-us{
+  background: #000;
+  color: white;
+  margin-top:-10px;
+  text-align: center;
+  padding: 20px;
+}
+.contain{
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.contain p{
+  color: #FFF;
+font-family: Ruda;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px; 
+letter-spacing: 2.25px;
+width: 677px;
+height: 420px;
+flex-shrink: 0;
+padding:   30px;
+}
+.box-2{
+  width: 526px;
+height: 10px;
+background:red;
+position: absolute;
+left:450px;
+}
+.contain img{
+  position: relative;
+  top: 40px;
+  width: 631px;
+height: 380px;
+right: 20px;
+}
+.contain p{
+  position: relative;
+  top :60px;
+}
+.menu-list{
+  background: #000;
+  color: white;
+  text-align: center;
+}
+.box-3{
+  width: 474px;
+height: 9px;
+position: absolute;
+left:460px;
+background:red;
+}
+.menu-list p{
+  justify-content: center;
+  margin: 30px 70px;
+font-family: Ruda;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2.25px;
+background: #000;
+}
+.menu-image1{
+  justify-content: center;
+  
+column-gap: 10px;
+margin: 40px;
+align-items: center;
+flex-direction: column;
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 10px;
+}
+.menu-image{
+  width: 273.083px;
+height: 200px;
+position: relative;
+right: -17px;
+
+}
+.menu-heading-para{
+  margin: 25px;
+  position: relative;
+  top: -21px;
+  left: -19px;
+}
+.menu-heading{
+  color: #F2C94C;
+  font-family: Ruda;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+}
+.menu-para{
+  color: #FFF;
+font-family: Ruda;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 1.8px;
+}
+.carousel-line{
+  width: 474px;
+height: 9px;
+background-color: red;
+position: relative;
+LEFT: 480PX;
+top: 30PX;
+}
+.carousel{
+  color: #FFF;
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+}
+.carousel-img{
+  position: relative;
+  bottom: -55px;
+  width: 134px;
+  height: 638px;
+  left: 60px;
+  border-radius: 10px;
+}
+.gallery{
+ 
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+}
+.gallery-red-line{
+  position: relative;
+  width: 474px;
+height: 9px;
+flex-shrink: 0;
+background-color:#B62828;
+left: 450px;
+bottom: -31px;
+}
+.gallery-menu{
+position: relative;
+bottom: -118px;
+}
+.box-black{
+height: 200px;
+width: 100wh;
+background: #000;
+}
+.find{
+  color: #FFF;
+text-align: center;
+font-family: Quattrocento;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; /* 0% */
+ustify-content: center;
+}
+.find-red-box{
+  width: 499px;
+height: 9px;
+background-color: #B62828;
+position: relative;
+left: 450px;
+bottom: -20px;
+}
+.main-find{
+  display: flex;
+  margin: 50px;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.find-image img{
+  width: 400px;
+height: 408px;
+}
+.find-para  span{
+  position: absolute;
+  
+} 
